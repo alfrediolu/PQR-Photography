@@ -1,0 +1,229 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+/* navigation section */
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(141, 240, 11, 0.541);
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    margin-bottom: 4px;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.301);
+}
+
+#logo-img{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    width: 400px;
+    margin-right: 20px;
+}
+
+/* nav */a{ 
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+
+/* nav */a:hover{
+    text-decoration: none;
+    color: blueviolet;
+    box-shadow: 0 5px 2px rgba(0, 149, 248, 0.26);
+    transition: ease-in-out;
+    transition: 0.4s;
+}
+
+/* banner section */
+#banner-section{
+    background-image: url('img/banner.jpg');
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#banner-header{
+    height: 400px;
+    padding: 100px 0px;
+    margin-right: 500px;
+    align-content: center;   
+}
+#banner-header p{
+    font-size: 25px;
+    color: rgb(0, 3, 172);
+    font-weight: 600;
+}
+
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(191, 255, 128);
+    font-family: sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border: 1px;
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+    transition: all 250ms ease-in-out;
+}
+button:hover{
+    background-color: white;
+    margin-top: 35px;
+}
+
+button a{
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+
+/* services section */
+#services-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(193, 39%, 46%, 0.205);
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.placeholder{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.placeholder img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    align-self: center; 
+}
+.placeholder h2{
+    font-size: 30px;
+    color:rgb(0, 3, 172) ;
+}
+.placeholder p{
+    padding: 2px;
+    margin: 0;
+    line-height: 1.2;
+}
+.placeholder button{
+    align-self: center;
+    margin: 10px;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;   
+}
+
+/* footer section */
+footer{
+    background-color: yellowgreen;
+    padding: 1px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+
+footer #left-footer{
+    flex: 1;
+    border-right: 1px solid black;
+    padding-left: 300px;
+    font-size: 17px;
+}
+
+footer #left-footer ul{
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+    text-align: center;
+}
+footer #right-footer{
+    flex: 2;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 17px;
+}
+footer #right-footer a .fa-facebook,
+footer #right-footer a .fa-twitter,
+footer #right-footer a .fa-instagram{
+    color: white;
+    transition: 0.4s;
+}
+
+footer #right-footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+footer #right-footer ul li{
+    font-size: 10px;
+    padding: 5px;
+}
+.fa {
+    
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
